@@ -1,0 +1,30 @@
+<idea-plugin version="2">
+  <id>com.your.company.unique.plugin.id</id>
+  <name>Plugin display name here</name>
+  <version>1.0</version>
+  <vendor email="hi@aqqxa.com" url="http://www.aqqxa.com">AQ</vendor>
+
+  <description>Alignment</description>
+
+  <change-notes></change-notes>
+
+  <idea-version since-build="141.0"/>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <application-components>
+    <component>
+      <implementation-class>com.aqqxa.plugin.FrontEndAlignment</implementation-class>
+    </component>
+  </application-components>
+
+  <actions>
+    <action id="intellij.frontendalignement.AlignItAction" class="com.aqqxa.plugin.AlignItAction" text="Regex Align"
+            description="Align Code with Regex">
+      <add-to-group group-id="CodeMenu" anchor="last"/>
+    </action>
+  </actions>
+
+</idea-plugin>
