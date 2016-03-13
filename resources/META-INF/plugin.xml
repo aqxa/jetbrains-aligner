@@ -1,10 +1,10 @@
 <idea-plugin version="2">
-  <id>com.your.company.unique.plugin.id</id>
-  <name>Plugin display name here</name>
+  <id>com.aqqxa.plugin.aligner</id>
+  <name>Aligner</name>
   <version>1.0</version>
   <vendor email="hi@aqqxa.com" url="http://www.aqqxa.com">AQ</vendor>
 
-  <description>Alignment</description>
+  <description>对齐</description>
 
   <change-notes></change-notes>
 
