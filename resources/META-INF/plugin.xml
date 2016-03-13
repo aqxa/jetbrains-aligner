@@ -10,9 +10,7 @@
 
   <idea-version since-build="141.0"/>
 
-  <extensions defaultExtensionNs="com.intellij">
-    <!-- Add your extensions here -->
-  </extensions>
+  <depends>com.intellij.modules.platform</depends>
 
   <application-components>
     <component>
@@ -21,8 +19,8 @@
   </application-components>
 
   <actions>
-    <action id="intellij.frontendalignement.AlignItAction" class="com.aqqxa.plugin.AlignItAction" text="Regex Align"
-            description="Align Code with Regex">
+    <action id="intellij.frontendalignement.AlignItAction" class="com.aqqxa.plugin.AlignItAction" text="Align Code"
+            description="Align Code">
       <add-to-group group-id="CodeMenu" anchor="last"/>
     </action>
   </actions>
